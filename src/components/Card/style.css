@@ -1,0 +1,10 @@
+.cardBody {
+  width:auto;
+  height: 200px;
+  border-radius: 12px;
+  background-color: #fff;
+  color: black;
+  padding: 5px;
+  text-align: left;
+  margin: 10px;
+}

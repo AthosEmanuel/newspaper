@@ -18,12 +18,13 @@ const Details: React.FC = () => {
       }
     };
     getData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const backToHome = () => {
     navigate("/home");
   };
-  console.log(data);
+
 
   return (
     <>

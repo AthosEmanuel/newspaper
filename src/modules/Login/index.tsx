@@ -15,8 +15,8 @@ const Login: React.FC = () => {
             <Title
                 text="Seja Bem Vindo !!!!"
                 customSyles={{
-                    marginTop: 24,
-                    marginBottom: 24,
+                    marginTop: 14,
+                    marginBottom: 14,
                     color: "#00AFBC",
                     fontFamily: 'UnifrakturCook',
                     fontStyle: 'Regular',
@@ -32,7 +32,7 @@ const Login: React.FC = () => {
                         backgroundColor: '#5B5D52',
                         color: '#F6F0E7',
                         width: 300,
-                        height: 100,
+                        height: 50,
                         borderRadius: 4,
                         fontSize: 30,
                         textAlign: 'center',

@@ -25,13 +25,11 @@ const Details: React.FC = () => {
     navigate("/home");
   };
 
-
   return (
-    <>
+    <div style={{ height: "100vh" }}>
       <Title
         text={title}
         customSyles={{
-          marginTop: 24,
           marginBottom: 24,
           color: "#00AFBC",
           fontFamily: "UnifrakturCook",
@@ -73,7 +71,7 @@ const Details: React.FC = () => {
           border: "transparent 0 none",
         }}
       />
-    </>
+    </div>
   );
 };
 
